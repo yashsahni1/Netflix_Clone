@@ -1,0 +1,23 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    font-family: "Poppins", serif;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+
+}
+img{
+    width: 700px;
+    align-self: center;
+}
+h2{
+    padding: 20px 0px;
+}
