@@ -1,7 +1,8 @@
+
 .canvas {
     width: 500px;
     height: 600px;
-    background-color: #4d0f00;
+    background-color: #05004d;
     overflow: hidden;
     filter: blur(2px);
   }
