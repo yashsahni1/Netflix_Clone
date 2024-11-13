@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #e9747436;
+    background-color: #ee06066b;
     font-family: 'Times New Roman', Times, serif
     
 }
@@ -21,9 +21,7 @@ body{
 nav{
     background-image: url("https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg");
     height: 35vh;
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position: 1px;
     display: flex;
     justify-content: center;
    
@@ -45,7 +43,7 @@ nav{
 
     input:focus{
         outline: none;
-        background-color: #631212e0;
+        background-color: #126324e0;
     }
 
 
@@ -64,17 +62,17 @@ nav{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            gap: 15px;
+            gap: 50px;
          }
          img{
                 height: 150px;
                 width: 150px;
                 border-radius: 50%;
-                box-shadow: 0 10px 10px;
+                filter:blur(0.5px);
                 
             }
          img:hover{
-                box-shadow: 0 15px 15px;    
+            box-shadow: 0 10px 10px 10px rgb(1,1,1,0.5);   
              }
              span{
                 font-size: 16px;
@@ -94,7 +92,7 @@ nav{
     padding: 20px 50px;
     justify-content: center;
     gap: 12px;
-    box-shadow: 0px 0px 8px brown;
+    box-shadow: 5px 10px 8px brown;
 
 }
 
@@ -109,7 +107,7 @@ nav{
     padding: 20px 50px;
     justify-content: center;
     gap: 20px;
-    box-shadow: 0px 0px 8px brown;
+    box-shadow: 4px 10px 8px brown;
 }
      .list-items{
         display: flex;
