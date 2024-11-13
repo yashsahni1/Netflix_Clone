@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #e9747436;
+    font-family: 'Times New Roman', Times, serif
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+nav{
+    background-image: url("https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg");
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1px;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+    input {
+        margin-top: 60px;    
+        height: 60px;
+        width: 1050px;
+        border-radius: 10px;
+        background-color: #631212;
+        padding: 10px;
+        color: white;
+        border: none;
+        position: sticky;
+        top: 60px;
+        
+    }
+
+    input:focus{
+        outline: none;
+        background-color: #631212e0;
+    }
+
+
+.menu{
+    
+    height: 50vh;
+}
+     ul{
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+        
+     }
+         li {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+         }
+         img{
+                height: 150px;
+                width: 150px;
+                border-radius: 50%;
+                box-shadow: 0 10px 10px;
+                
+            }
+         img:hover{
+                box-shadow: 0 15px 15px;    
+             }
+             span{
+                font-size: 16px;
+                font-weight: bolder;
+             }
+
+
+
+.details{
+    height: 60vh;
+    width: 90%;
+    color: #a52a2a;
+    background-color: #a52a2a52;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    justify-content: center;
+    gap: 12px;
+    box-shadow: 0px 0px 8px brown;
+
+}
+
+.last{
+    height: 55vh;
+    width: 90%;
+    color: #a52a2a;
+    background-color: #a52a2a52;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 0px 0px 8px brown;
+}
+     .list-items{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+     }
+ol{
+    align-self:flex-start;
+}
+     ol  li{
+            font-size: 17px;
+            margin:5px;
+        }
+    
